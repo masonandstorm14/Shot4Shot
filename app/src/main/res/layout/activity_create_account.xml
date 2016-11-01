@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.mason.shot4shot.CreateAccount">
+    <EditText
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/editText_createEmail"
+        android:inputType="textEmailAddress"
+        android:layout_marginTop="150dp" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="15dp"
+        android:id="@+id/text"
+        android:text="Email"
+        android:layout_alignLeft="@+id/editText_createEmail"
+        android:layout_alignStart="@+id/editText_createEmail"
+        android:layout_marginTop="135dp"
+        />
+    <EditText
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/editText_createPassword"
+        android:inputType="textPassword"
+        android:layout_below="@+id/editText_userName"
+        android:layout_marginTop="15dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="15dp"
+        android:id="@+id/text3"
+        android:text="Username"
+        android:layout_alignLeft="@+id/editText_createPassword"
+        android:layout_alignStart="@+id/editText_createPassword"
+        android:layout_below="@+id/editText_createEmail"
+        android:layout_marginTop="0dp"/>
+    <EditText
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:id="@+id/editText_userName"
+        android:layout_below="@+id/editText_createEmail"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="15dp"
+        android:text="Password"
+        android:layout_alignLeft="@+id/editText_createPassword"
+        android:layout_alignStart="@+id/editText_createPassword"
+        android:layout_below="@+id/editText_userName"
+        android:layout_marginTop="0dp"
+        android:id="@+id/textView4" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="15dp"
+        android:layout_toRightOf="@+id/textView4"
+        android:layout_alignTop="@+id/textView4"
+        android:layout_marginLeft="0dp"
+        android:id="@+id/errorText_Password"
+        android:textColor="@android:color/holo_red_dark"
+        android:textSize="6dp"
+        android:layout_marginTop="7dp" />
+    <Button
+        android:layout_width="175dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_createAccount"
+        android:text="CreateAccount"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/editText_confirmPassword"
+        android:layout_marginTop="25dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="ConfirmPassword"
+        android:id="@+id/textView2"
+        android:layout_below="@+id/editText_createPassword"
+        android:layout_alignLeft="@+id/editText_createPassword"
+        android:layout_alignStart="@+id/editText_createPassword" />
+
+    <EditText
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:inputType="textPassword"
+        android:ems="10"
+        android:id="@+id/editText_confirmPassword"
+        android:layout_below="@+id/textView2"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:id="@+id/textView_errorTextEmail"
+        android:layout_alignBottom="@+id/text"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:id="@+id/textView_errorTextPassword"
+        android:layout_alignBottom="@+id/textView4"
+        android:layout_centerHorizontal="true" />
+</RelativeLayout>

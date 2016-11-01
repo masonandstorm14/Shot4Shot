@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "527685830651",
+    "firebase_url": "https://shot4shot-efa22.firebaseio.com",
+    "project_id": "shot4shot-efa22",
+    "storage_bucket": "shot4shot-efa22.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:527685830651:android:465839a07cb8b693",
+        "android_client_info": {
+          "package_name": "com.example.mason.shot4shot"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "527685830651-bjt07l2m26sapb0029nl74j7rt9417i8.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.mason.shot4shot",
+            "certificate_hash": "BCFDEB68E8DF8979A469BDB57F8D60167C4655EF"
+          }
+        },
+        {
+          "client_id": "527685830651-alnrf157uup66kl79rp29b73msvu7q0d.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyArqEv4DW6TecomrNHLkXG9KSbIVw3Vv6s"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "527685830651-alnrf157uup66kl79rp29b73msvu7q0d.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
